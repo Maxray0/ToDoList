@@ -1,0 +1,34 @@
+{
+  "todos": [
+    {
+      "userId": 1,
+      "title": "Ceci est un test",
+      "completed": false,
+      "id": 10
+    },
+    {
+      "userId": 1,
+      "title": "Ça semble fonctionner",
+      "completed": true,
+      "id": 19
+    },
+    {
+      "userId": 1,
+      "title": "Maxime",
+      "completed": false,
+      "id": 20
+    },
+    {
+      "userId": 1,
+      "title": "Vérification",
+      "completed": true,
+      "id": 5
+    },
+    {
+      "userId": 1,
+      "title": "23102001////erg",
+      "completed": true,
+      "id": 22
+    }
+  ]
+}
