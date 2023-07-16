@@ -28,6 +28,11 @@ It's simple. To create a task :
 You can click on the checkbox to strikethrough the task and mark it as "Completed"
 You can also drag and drop the tasks in the order you want !
 
+## Build
+To build it, use `npm run build`. Than, use `serve -s build` to host it on `localhost:3000`.
+
+Pour le build, utilisez `npm run buid`. Puis, utilisez `serve -s build` pour l'héberger sur le `localhost:3000`.
+
 ## Comment l'utiliser
 C'est simple. Pour créer une nouvelle tâche :
 
