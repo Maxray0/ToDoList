@@ -135,15 +135,18 @@ const TodoList = () => {
                                             <article {...provided.draggableProps} {...provided.dragHandleProps} ref={provided.innerRef}>
                                                 <div className="todo">
                                                     <input
-                                                        type="checkbox"
-                                                        checked={todo.completed}
-                                                        id={todo.id}
-                                                        onChange={() =>
-                                                            updateTodoMutation.mutate({ ...todo, completed: !todo.completed })
+                                                    type="checkbox"
+                                                    checked={todo.completed}
+                                                    id={todo.id}
+                                                    onChange={() => 
+                                                        updateTodoMutation.mutate({ ...todo, completed: !todo.completed })
                                                         }
                                                     />
-                                                    <label htmlFor={todo.id}>{todo.title}</label>
+                                                    <label htmlFor={todo.id} className={todo.completed ? "completed" : ""}>
+                                                        {todo.title}
+                                                    </label>
                                                 </div>
+
                                                 <button className="trash" onClick={() => handleDelete(todo.id)}>
                                                     <FontAwesomeIcon icon={faTrash} />
                                                 </button>
